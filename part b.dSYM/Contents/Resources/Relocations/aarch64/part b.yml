@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/methsaradissanayeka/Desktop/Computer systems assignment 01/part b'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cb_init, symObjAddr: 0x0, symBinAddr: 0x100003058, symSize: 0x38 }
+  - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _cb_init, symObjAddr: 0x0, symBinAddr: 0x100003058, symSize: 0x38 }
+  - { offsetInCU: 0x7A, offset: 0x7A, size: 0x8, addend: 0x0, symName: _cb_push, symObjAddr: 0x38, symBinAddr: 0x100003090, symSize: 0xAC }
+  - { offsetInCU: 0xB0, offset: 0xB0, size: 0x8, addend: 0x0, symName: _cb_pop, symObjAddr: 0xE4, symBinAddr: 0x10000313C, symSize: 0x90 }
+  - { offsetInCU: 0xE6, offset: 0xE6, size: 0x8, addend: 0x0, symName: _generate_sample, symObjAddr: 0x174, symBinAddr: 0x1000031CC, symSize: 0x80 }
+  - { offsetInCU: 0x10E, offset: 0x10E, size: 0x8, addend: 0x0, symName: _compute_stats, symObjAddr: 0x1F4, symBinAddr: 0x10000324C, symSize: 0x274 }
+  - { offsetInCU: 0x1D1, offset: 0x1D1, size: 0x8, addend: 0x0, symName: _run_scenario, symObjAddr: 0x468, symBinAddr: 0x1000034C0, symSize: 0x4DC }
+  - { offsetInCU: 0x306, offset: 0x306, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x944, symBinAddr: 0x10000399C, symSize: 0xCC }
+...
